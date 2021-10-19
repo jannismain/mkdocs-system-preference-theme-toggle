@@ -1,0 +1,21 @@
+site_name: My Docs
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to system preference
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: auto)"
+      scheme: auto
+      toggle:
+        icon: material/theme-light-dark
+        name: Switch to dark mode
+extra_javascript:
+  - assets/customToggle.js
