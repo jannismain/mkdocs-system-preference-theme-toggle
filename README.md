@@ -2,9 +2,9 @@
 
 A demonstration of a custom palette toggle for [mkdocs-material](https://squidfunk.github.io/mkdocs-material/) that has an option to follow the system preference:
 
-![](docs/assets/systemPreference.gif)
+![](img/systemPreference.gif)
 
-![](docs/assets/paletteToggle.gif)
+![](img/paletteToggle.gif)
 
 ## Reference
 
